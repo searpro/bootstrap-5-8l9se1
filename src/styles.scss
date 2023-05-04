@@ -1,0 +1,52 @@
+// $primary: #276fc2;
+// $secondary: #e8d21d;
+// $border-radius: 1px;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+.bg-primary {
+  background-color: #315299 !important;
+}
+
+.bg-light {
+  background-color: #dfe0e5 !important;
+}
+
+.hero {
+  background-image: url(https://images.unsplash.com/photo-1512672378591-74fbb56b1d28?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=111881731843c98860fd6ede341337d7&auto=format&fit=crop&w=1350);
+  background-size: cover;
+  min-height: 500px;
+  align-items: center;
+  color: #fff;
+  text-shadow: 1px 3px 3px #000;
+}
+
+.rounded-left {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  min-height: 400px;
+  max-width: 364px;
+}
+
+.rounded-right {
+  border: 2px solid #fff;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  min-height: 400px;
+  background: #fafafa;
+  margin-left: -10px;
+  max-width: 364px;
+  background-image: url(https://images.pexels.com/photos/256559/pexels-photo-256559.jpeg?auto=compress&cs=tinysrgb&h=364);
+}
+
+.testimonial {
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.t-avatar {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50px;
+  overflow: hidden;
+}
