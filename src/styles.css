@@ -1,0 +1,114 @@
+html,
+body,
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg-primary {
+  background-color: #315299 !important;
+}
+
+.bg-light {
+  background-color: #dfe0e5 !important;
+}
+
+.btn-primary-c {
+  background-color: #17387d !important;
+  color: #fff;
+  font-weight: 600;
+}
+
+.btn-primary-c:hover {
+  color: #fff !important;
+}
+
+.btn-stroked {
+  border: 1px solid #fff !important;
+  outline: none !important;
+}
+
+.hero {
+  background-image: url(https://images.unsplash.com/photo-1512672378591-74fbb56b1d28?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=111881731843c98860fd6ede341337d7&auto=format&fit=crop&w=1350);
+  background-size: cover;
+  min-height: 100vh;
+  align-items: center;
+  color: #fff;
+  text-shadow: 1px 3px 3px #000;
+}
+
+.testimonial {
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.t-avatar {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.rating {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+
+.star {
+  background-image: url(images/fill.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline;
+  margin: 0 5px 0px 5px;
+}
+.star:hover {
+  background-image: url(images/strok.svg);
+}
+
+/*small device styles*/
+@media (min-width: 576px) {
+  .br-1 {
+    border: none;
+  }
+  .rounded-left {
+    border-radius: 50px;
+  }
+
+  .rounded-right {
+    border: 2px solid #fff;
+    border-radius: 50px;
+    min-height: 472px;
+    background: #fafafa;
+    margin-left: -10px;
+    min-width: 364px;
+    background-image: url(https://images.pexels.com/photos/256559/pexels-photo-256559.jpeg?auto=compress&cs=tinysrgb&h=364);
+  }
+}
+
+@media (min-width: 768px) {
+  .br-1 {
+    border-right: 1px solid gray;
+  }
+
+  .rounded-left {
+    border-radius: 0;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    min-height: 472px;
+    max-width: 364px;
+  }
+
+  .rounded-right {
+    border-radius: 0;
+    border: 2px solid #fff;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    min-height: 472px;
+    background: #fafafa;
+    margin-left: -10px;
+    max-width: 364px;
+    background-image: url(https://images.pexels.com/photos/256559/pexels-photo-256559.jpeg?auto=compress&cs=tinysrgb&h=364);
+  }
+}
